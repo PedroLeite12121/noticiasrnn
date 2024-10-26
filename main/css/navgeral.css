@@ -1,0 +1,29 @@
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+nav h2:hover{
+    transition: 0.5s;
+    box-shadow: 0px -3px 0px rgb(255, 0, 0) inset;
+}
+
+#active{
+    box-shadow: 0px -3px 0px rgb(255, 0, 0) inset;
+}
+
+nav h2{
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+nav a{
+    width: 100%;
+}
