@@ -3,8 +3,8 @@
 /* todas as noticias */
 .noticias {
     position: relative;
-    width: 200vh;
-    margin-top: 22vh;
+    width: 95vw;
+    margin-top: 18vh;
     background-color: rgb(255, 255, 255);
     height: fit-content;
     display: flex;
@@ -30,8 +30,8 @@ a{
     border-radius: 10px;
     font-size:3vh;
     position: relative;
-    width: 90vh;
-    height: 60vh;
+    width: 100vh;
+    height: 70vh;
     transition: 0.5s;
 }
 
@@ -81,7 +81,7 @@ a{
 /* todas as noticias em destaque secundarias*/
 .segunda_e_terceira_noticia {
     margin-left: 2vh;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
@@ -94,8 +94,8 @@ a{
     font-size: 1.7vh;
     transition: 0.5s;
     position: relative;
-    width: 50vh;
-    height: 28vh;
+    width: 52vh;
+    height: 33vh;
     background-color: black;
 }
 
@@ -116,34 +116,35 @@ a{
     background-color: white;
     right: 0;
     min-width: 20vh;
-    height: 59vh;
+    height: 70vh;
     overflow-y: scroll;
-    padding-top: 2vh;
 }
 
 
 
 /* configurações das noticias do scroll */
 .noticias_recentes img {
-    width: 23vh;
-    height: 23vh;
+    width: 24vh;
+    height: 24vh;
     transition: 0.5s;
 }
 
-.noticias_recentes img:hover {
-    scale: 1.1;
-    transition: 0.5s;
-}
 
+
+.noticias_recentes h3:hover {
+    transition: 0.5s;
+    color: gray;
+}
 
 
 /* configurações das noticias do scroll */
 
 .noticias_recentes h3 {
+    transition: 0.5s;
     text-align: left;
     font-family: "Sarala";
     color: #000000;
-    width: 25vh;
+    width: 24vh;
     font-size: 2vh;
     border-bottom: 0.5vh solid rgb(128, 128, 128);
 }
