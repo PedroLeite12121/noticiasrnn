@@ -1,4 +1,5 @@
 nav{
+    height: 5vh;
     background-color: black;
     color: white;
     display: flex;
@@ -7,23 +8,29 @@ nav{
     
 }
 
-nav h2:hover{
+
+nav a:hover{
     transition: 0.5s;
-    box-shadow: 0px -3px 0px rgb(255, 0, 0) inset;
+    box-shadow: 0px -0.5vh 0px rgb(255, 0, 0) inset;
 }
 
 #active{
-    box-shadow: 0px -3px 0px rgb(255, 0, 0) inset;
+    box-shadow: 0px -0.5vh 0px rgb(255, 0, 0) inset;
 }
 
 nav h2{
-    font-size: 20px;
+    font-size: 2vh;
     transition: 0.5s;
     color: white;
     text-align: center;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1vh;
 }
 
 nav a{
+    position: relative;
+    transition: 1s;
     width: 100%;
 }
