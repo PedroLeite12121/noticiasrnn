@@ -92,7 +92,7 @@ switch(userChoice) {
 
     case "aqueduto":
         title.innerText = 'Roma celebra inauguração de novos aquedutos'
-        image.src = '../imagem/Aqueduto.png'
+        image.src = '../imagem/aqueduto.png'
         date.innerText = '11/04/312 A.C.'
         text.innerHTML = 'Uma atmosfera de celebração e gratidão envolveu as ruas de Roma hoje, enquanto os cidadãos se reuniam para comemorar a conclusão do novo aqueduto que agora abastece a cidade com água fresca e limpa. <br><br> O aqueduto, um projeto ambicioso que durou vários anos, foi oficialmente inaugurado pelo Prefeito da Cidade, Lucius Aemilius, em uma cerimônia emocionante no fórum principal. "Este aqueduto não é apenas uma conquista da engenharia romana, mas um presente vital para todos os cidadãos de Roma," afirmou o prefeito em seu discurso de inauguração. <br><br> Com a conclusão deste aqueduto, que se estende por quilômetros a partir das fontes naturais nos arredores da cidade, os moradores de todas as classes sociais agora desfrutam de um suprimento regular de água. "É um alívio não precisar mais depender de poços e cisternas," comentou Gaius Flavius, um comerciante local. "A água agora flui diretamente para nossas casas e negócios."'
         break;
