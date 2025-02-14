@@ -10,7 +10,7 @@ section{
     width: 85%;
     padding-top: 20px;
     background-color: white;
-    margin-top: 120px;
+    margin-top: 20vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,7 +33,7 @@ section h2{
     padding-bottom: 20px;
     padding-top: 20px;
     background-color: rgba(255, 255, 255, 0.596);
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 25px;
     color: rgb(0, 0, 0);
     margin-bottom: 50px;
@@ -42,18 +42,18 @@ section h2{
 
 /* configurações dos detalhes adicionais */
 section p{
-    font-weight: bolder;
     padding: 20px;
-    border-top: 3px solid black;
+    border-top: 1px solid black;
     font-family: "Outfit";
-    width: 900px;
+    width: 70vw;
     font-size: 25px;
     margin-bottom: 100px;
+    height: 100vh;
+    bottom: 0;
 }
 
 /* configurações da imagem */
 section img{
-    border: 3px solid black;
     object-fit: cover;
     width: 800px;
     height: 400px;
